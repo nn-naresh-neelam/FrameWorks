@@ -1,0 +1,30 @@
+# ----------------------------------------------------------------
+# $Name: .initrc_DeVato
+# $Author: Naresh Neelam
+# ----------------------------------------------------------------
+export NZ_HOST=<<hostName>>
+export NZ_USER=<<nzuser>>
+ 
+#paths configuration
+
+
+config_dir="/scripts/Config"
+script_dir="/scripts/Config/ksh"
+source_dir="/scripts/Config/src"
+log_dir="/scripts/log"
+temp_dir="/Data/Temp"
+raw_dir="/Data/RawSrc"
+ddl_dir="/Target/DDL"
+wrapper_dir="/Target/WRAPPER"
+report_dir="/Target/REPORT"
+config_file="DM_DDL_STTM_Template_Requirements.xlsx"
+temp_db=<<netezza-db>>
+ 
+ 
+ 
+#dynamic Configuration
+PROJECT_NAME="<<project Name>>"     #Example: Resource_Management
+tgt_prefix="<<FileNamre_Prefix>>"   #Example: Nov_15_Release
+backup_table_date="<<date:number>>" #Example: 14 (Day of prod release)
+DEV_USER="<<user>>"                 #Example: Naresh Neelam (Scripts running user)
+work_db=<<workdb_name>>             #Example: WRK_DB_D1
