@@ -1,0 +1,4 @@
+ODS_INSRT_DT                            TIMESTAMP               NOT NULL,
+ODS_UPDT_DT                             TIMESTAMP               NOT NULL,
+CREAT_RUN_CYC_EXEC_SK                   BIGINT                  NOT NULL,
+LST_UPDT_RUN_CYC_EXEC_SK                BIGINT                  NOT NULL
